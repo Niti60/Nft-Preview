@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color:hsl(217, 54%, 11%);
+}
+.attribution{
+     font-size: 11px; text-align: center; 
+    }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.container{
+    background-color:hsl(216, 50%, 16%);
+    height: 450px;
+    width: 289px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border-radius: 12px;
+}
+.items{
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.image{
+    display: block;
+    position: relative;
+}
+img{
+    height: 240px;
+    width: 230px;
+    border-radius: 12px;
+}
+.eye{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(178, 100%, 50%);
+    background-color: hsla(178, 100%, 50%,0.5);
+    height: 240px;
+    width: 230px;
+    border-radius: 12px;
+    transition: opacity 0.3s ease;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    top: 49%;
+    left: 44.5%;
+}
+.image:hover .eye{
+    opacity: 0.9;
+}
+.pa{
+    width: fit-content;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    padding-top: 5%;
+}
+.pa:hover{
+    color: aqua;
+}
+.para{
+width: fit-content;
+color: hsl(215, 51%, 70%);
+font-family: sans-serif;
+padding-top: 5%;
+font-size: 14px;
+}
+.ETH{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ETH-p{
+    font-size: 15px;
+    color: white;
+    font-weight: bold; 
+    font-family: sans-serif;
+    display: inline; 
+}
+.ETH-p:hover{
+color: aqua;
+}
+.avtar img{
+    width: 12%;
+    height: 12%;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline;
+    margin-right: 5%;
+}
+.avtar{
+    display: flex;
+    align-items: center;
+    padding-top: 5%;
+}
+.name{
+    color:white;
+    font-family: sans-serif;
+}
+.name:hover{
+    color: aqua;
+}
